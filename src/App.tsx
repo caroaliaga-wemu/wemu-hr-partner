@@ -413,7 +413,14 @@ export default function App() {
                 <ArrowRight className="h-5 w-5" /> Hablemos
               </a>
             </div>
-            <p className="mt-6 text-sm text-white/80">caro.aliaga@wemuhr.com</p>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-white/80">
+              <span className="inline-flex items-center gap-2">
+                <Mail className="h-4 w-4" /> info@wemuhr.com
+              </span>
+              <span className="inline-flex items-center gap-2">
+                <Phone className="h-4 w-4" /> +54 9 3516288357
+              </span>
+            </div>
           </div>
         </div>
       </section>
