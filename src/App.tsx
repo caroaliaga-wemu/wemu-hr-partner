@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowRight,
   Mail,
@@ -13,26 +12,6 @@ import {
 } from "lucide-react";
 import logo from "@/assets/logo-wemu.png";
 import caro from "@/assets/caro.png";
-
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "WeMu — Connecting People & Strategy | HR partner para startups" },
-      {
-        name: "description",
-        content:
-          "Consultora de HR especializada en Fractional HR y Talent Acquisition para startups y empresas en crecimiento en Latinoamérica.",
-      },
-      { property: "og:title", content: "WeMu — Connecting People & Strategy" },
-      {
-        property: "og:description",
-        content:
-          "El HR partner de confianza al que llamás cuando necesitás ordenar, resolver o crecer.",
-      },
-    ],
-  }),
-  component: Index,
-});
 
 const MAIL = "mailto:caro.aliaga@wemuhr.com";
 
@@ -77,7 +56,7 @@ const situaciones = [
   "Estamos creciendo, pero el talento no escala al mismo ritmo.",
 ];
 
-function Index() {
+export default function App() {
   return (
     <div className="min-h-screen bg-background">
       {/* NAV */}
