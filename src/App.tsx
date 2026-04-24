@@ -1,6 +1,7 @@
 import {
   ArrowRight,
   Mail,
+  Phone,
   Handshake,
   ShieldCheck,
   Zap,
