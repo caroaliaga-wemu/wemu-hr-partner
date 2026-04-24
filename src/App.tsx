@@ -16,7 +16,7 @@ import caro from "@/assets/caro.png";
 
 const MAIL = "mailto:caro.aliaga@wemuhr.com";
 const WHATSAPP =
-  "https://wa.me/5493516288357?text=Hola%2C%20me%20vi%20la%20p%C3%A1gina%20de%20WeMu%20me%20interesa%20que%20me%20ayuden%20en%20mi%20empresa";
+  "https://wa.me/5493516288357?text=Hola%2C%20te%20contacto%20desde%20la%20p%C3%A1gina%20de%20WeMu%2C%20me%20interesan%20sus%20servicios%20para%20mi%20empresa";
 
 const valores = [
   {
