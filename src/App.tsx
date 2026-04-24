@@ -74,7 +74,9 @@ export default function App() {
             <a href="#contacto" className="hover:text-foreground transition">Contacto</a>
           </nav>
           <a
-            href={MAIL}
+            href={WHATSAPP}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-brand px-5 py-2.5 text-sm font-medium text-white shadow-soft hover:opacity-95 transition"
           >
             Hablemos <ArrowRight className="h-4 w-4" />
