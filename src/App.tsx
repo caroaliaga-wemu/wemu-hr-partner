@@ -113,7 +113,9 @@ export default function App() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href={MAIL}
+                href={WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-brand px-7 py-3.5 text-base font-medium text-white shadow-elegant hover:opacity-95 transition"
               >
                 Hablemos <ArrowRight className="h-4 w-4" />
