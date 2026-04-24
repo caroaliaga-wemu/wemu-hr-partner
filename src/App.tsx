@@ -113,7 +113,9 @@ export default function App() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href={MAIL}
+                href={WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-brand px-7 py-3.5 text-base font-medium text-white shadow-elegant hover:opacity-95 transition"
               >
                 Hablemos <ArrowRight className="h-4 w-4" />
@@ -408,7 +410,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-white bg-transparent px-8 py-4 text-base font-medium text-white hover:bg-white/10 transition"
               >
-                <ArrowRight className="h-5 w-5" /> Hablanos
+                <ArrowRight className="h-5 w-5" /> Hablemos
               </a>
             </div>
             <p className="mt-6 text-sm text-white/80">caro.aliaga@wemuhr.com</p>
