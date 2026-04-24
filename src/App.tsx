@@ -395,12 +395,22 @@ export default function App() {
             <p className="mt-5 text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
               Contanos qué te está trabando hoy y trabajamos juntos para resolverlo.
             </p>
-            <a
-              href={MAIL}
-              className="mt-10 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-base font-medium text-foreground shadow-soft hover:bg-white/95 transition"
-            >
-              <Mail className="h-5 w-5" /> Contactanos
-            </a>
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+              <a
+                href={MAIL}
+                className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-base font-medium text-foreground shadow-soft hover:bg-white/95 transition"
+              >
+                <Mail className="h-5 w-5" /> Contactanos
+              </a>
+              <a
+                href={WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border-2 border-white bg-transparent px-8 py-4 text-base font-medium text-white hover:bg-white/10 transition"
+              >
+                <ArrowRight className="h-5 w-5" /> Hablanos
+              </a>
+            </div>
             <p className="mt-6 text-sm text-white/80">caro.aliaga@wemuhr.com</p>
           </div>
         </div>
